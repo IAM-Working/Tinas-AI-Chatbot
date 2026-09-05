@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.env
+.DS_Store
+
+# https://medium.com/@rajidiabhinavreddy/docker-with-node-js-express-js-a-complete-beginners-guide-part-1-d5cd0ae90b7f

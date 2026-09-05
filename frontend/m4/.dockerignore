@@ -1,0 +1,6 @@
+.dockerignore
+dist
+Dockerfile
+node_modules
+
+# https://medium.com/@pvasu3658/guide-to-dockerizing-and-deploying-your-vite-react-app-8ed6eaca002e

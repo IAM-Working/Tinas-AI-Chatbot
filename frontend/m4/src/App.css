@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 30vw;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  border: 3px black solid;
+}
+.head {
+color: #1E88E5;
+}
+.display {
+  border: 3px black solid;
+  height: 70%;
+  width: 90%;
+  margin: 2%;
+  margin-top: 5%;
+  overflow: auto;
+  scrollbar-width: none;
+
+}
+.tina-message {
+  color: #1E88E5;
+  padding: 3%;
+  font-size: 1.2rem;
+}
+.user-message {
+  padding: 3%;
+  font-size: 1.2rem;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8%;
+  width: 90%;
+}
+.input-container :focus {
+  outline: none;
+}
+.input {
+  height: 100%;
+  width: 74%;
+  padding-left: 3%;
+  border: 3px #1E88E5 solid;
+}
+.btn {
+  height: 100%;
+  width: 25%;
+  background-color: #1E88E5;
+  color: white;
+}
